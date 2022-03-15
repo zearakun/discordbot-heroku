@@ -9,6 +9,12 @@ token = "トークン"
 client = commands.Bot(command_prefix=prefix)
 
 
+@client.event
+async def on_ready():
+    change_status.start()
+    print("discord.py version" + discord.__version__)
+
+
 
 @client.command()
 async def ping(ctx):
