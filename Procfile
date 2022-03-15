@@ -1,1 +1,1 @@
-bot: ./run.sh
+bot: python main.py
