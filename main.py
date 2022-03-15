@@ -3,8 +3,8 @@ from discord.ext import discord
 import datetime
 
 
-prefix = "プレフィックス"
-token = "トークン"
+prefix = "t!"
+token = "OTQ4NDgyNTE2MDM2MjI3MDky.Yh8dLQ.mc1c4rwjvQGrZ1b6U4KWK7htgB0"
 
 client = commands.Bot(command_prefix=prefix)
 
