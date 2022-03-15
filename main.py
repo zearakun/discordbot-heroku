@@ -1,12 +1,14 @@
 import discord
 from discord.ext import discord
+import datetime
 
 
 prefix = "プレフィックス"
+token = "トークン"
 
 client = commands.Bot(command_prefix=prefix)
 
-token = "トークン"
+
 
 @client.command()
 async def ping(ctx):
